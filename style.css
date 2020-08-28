@@ -1,6 +1,7 @@
-a:hover {
+
+a:hover{
     color: bisque;
 }
-p{
+.first a {
     color: chartreuse;
 }
