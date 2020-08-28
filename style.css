@@ -2,6 +2,9 @@
 a:hover{
     color: bisque;
 }
-.first a {
+p {
     color: chartreuse;
 }
+/* body{
+    background-color: chocolate;
+} */
