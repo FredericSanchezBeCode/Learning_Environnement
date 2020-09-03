@@ -1,0 +1,54 @@
+
+body{
+    background: rgba(214,46,0,1);
+background: -moz-linear-gradient(left, rgba(214,46,0,1) 0%, rgba(214,46,0,0.89) 35%, rgba(148,32,0,0.69) 100%);
+background: -webkit-linear-gradient(left, rgba(214,46,0,1) 0%, rgba(214,46,0,0.89) 35%, rgba(148,32,0,0.69) 100%);
+background: -o-linear-gradient(left, rgba(214,46,0,1) 0%, rgba(214,46,0,0.89) 35%, rgba(148,32,0,0.69) 100%);
+background: -ms-linear-gradient(left, rgba(214,46,0,1) 0%, rgba(214,46,0,0.89) 35%, rgba(148,32,0,0.69) 100%);
+background: linear-gradient(to right, rgba(214,46,0,1) 0%, rgba(214,46,0,0.89) 35%, rgba(148,32,0,0.69) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d62e00', endColorstr='#942000', GradientType=1 );
+}
+a:hover{
+    color: bisque;
+    border: 1px solid saddlebrown;
+    border-radius: 23%;
+}
+
+a:visited{
+    color: deeppink;
+    text-decoration-style: dotted;
+    text-decoration-color: slateblue;
+}
+p {
+    color: teal;
+}
+
+h2{
+    text-decoration-style: wavy;
+    color: yellowgreen;
+}
+h3{
+    text-decoration: underline;
+    color: darkgreen;
+    text-decoration-color: yellow;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+th:nth-child(odd){
+    color: gray;
+}
+th:nth-child(even){
+    color: goldenrod
+}
+td{
+    font-style: oblique;
+}
+td:nth-child(even){
+    font-style: normal;
+}
+table{
+    border: 1.5em dotted turquoise;
+}

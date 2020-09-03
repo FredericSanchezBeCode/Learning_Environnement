@@ -2,8 +2,21 @@
 a:hover{
     color: bisque;
 }
+
+a:visited{
+    color: deeppink;
+}
 p {
     color: chartreuse;
+}
+.blue{
+    color: blue;
+}
+h2{
+    text-decoration-style: wavy;
+}
+h3{
+    text-decoration: underline;
 }
 /* body{
     background-color: chocolate;
